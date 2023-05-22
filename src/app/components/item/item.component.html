@@ -1,0 +1,8 @@
+<div id="container">
+  <img src="{{ imgSrc }}" width="100"/>
+  <div id="info">
+    <p>{{ name }}</p>
+    <p>{{ price | currency }}</p>
+    <p id="{{ checkInStock() ? 'inStock': 'notInStock' }}">{{ checkInStock() ? 'In Stock' : 'Not In Stock' }}</p>
+  </div>
+</div>

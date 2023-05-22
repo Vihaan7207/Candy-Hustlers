@@ -1,0 +1,12 @@
+<div id="snacks" class="section">
+  <h1>Snacks</h1>
+  <div class="item-container">
+    <app-item *ngFor="let item of items.snacks" imgSrc="{{ item.imgSrc }}" name="{{ item.name }}" price="{{ item.price }}" inStock="{{ item.inStock }}"></app-item>
+  </div>
+</div>
+<div id="drinks" class="section">
+  <h1>Drinks</h1>
+  <div class="item-container">
+    <app-item *ngFor="let item of items.drinks" imgSrc="{{ item.imgSrc }}" name="{{ item.name }}" price="{{ item.price }}" inStock="{{ item.inStock }}"></app-item>
+  </div>
+</div>

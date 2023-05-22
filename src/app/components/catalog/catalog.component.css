@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+  color: white;
+  border-bottom: dotted;
+  border-color: rgb(20, 98, 194);
+  border-width: 10px;
+}
+
+.item-container {
+  /* border: solid;
+  border-color: white; */
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+ margin-top: 50px;
+}
